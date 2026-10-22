@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(158, 158, 158);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+section{
+    margin: 200px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 5px 20px rgb(0, 0, 2);
+    background-color:  rgb(255, 255, 255);
+    width: 700px;
+    height: 800px;
+    border-radius: 50px;
+}
+
+section img{
+    margin: 50px;
+    border: solid 1px black;
+    border-radius: 100px;
+}
+
+section input{
+     width: 200px;
+    height: 25px;
+}
+
+section select{
+    width: 200px;
+    height: 30px;
+}
+
+.btn1{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.btn1:hover{
+    background-color: azure;
+}
